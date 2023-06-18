@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript</title>
+</head>
+<body>
+
+	<div id="text1">Hello Java Script</div>
+
+
+	<button onclick="change();">Change All</button>
+
+	<br><br>
+
+	<img id="img1" src="images/BurgerImage2.png">
+
+	<br><br>
+
+	<button onclick="document.getElementById('img1').src='images/BurgerImage3.png' ;">Change Image</button>
+
+	<script type="text/javascript">
+
+		
+		function change(){
+
+			document.getElementById('text1').innerHTML = 'CIT';
+			document.getElementById('text1').style.color = 'red';
+			document.getElementById('text1').style.fontSize = '70px';
+
+		}
+		
+	</script>
+
+</body>
+</html>
