@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jquery</title>
+</head>
+<body>
+
+	<p id="text1">Hello CIT</p>
+
+	<button id="btn1">Change Text</button>
+
+
+	
+	<script src="js/jquery.js"></script>
+
+	<script type="text/javascript">
+
+		
+
+		$("#btn1").click(function(){
+			$("#text1").fadeOut(2000);
+			$("#text1").text("Pakistan");
+			$("#text1").fadeIn(2000);
+
+		});
+
+	</script>
+
+
+
+</body>
+</html>
